@@ -3,7 +3,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)](https://python.org)
 [![SQLite](https://img.shields.io/badge/Database-SQLite-lightgrey?logo=sqlite)](https://sqlite.org)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 
 ---
 
@@ -13,7 +13,7 @@ This project investigates whether product category combinations in a supermarket
 are statistically independent, or whether certain pairings occur significantly
 more often than expected by chance.
 
-The key differentiator is **temporal segmentation**: associations are tested
+The key differentiator is temporal segmentation: associations are tested
 separately by time slot (Morning, Afternoon, Evening), revealing that purchasing
 patterns shift across the day. This has direct implications for promotional
 scheduling and inventory restocking decisions.
@@ -42,8 +42,8 @@ of Ecuadorian supermarket chains (Supermaxi, Mi Comisariato).
 | Odds Ratio | Measure the magnitude of the commercial effect |
 
 > **Methodological note**: With large samples (n = 10,000), the chi-squared 
-> test tends to reject H₀ for virtually all pairs — a well-known limitation. 
-> For this reason, **Cramér's V is the primary effect size measure** used to 
+> test tends to reject H₀ for virtually all pairs, a well-known limitation. 
+> For this reason, Cramér's V is the primary effect size measure used to 
 > compare association strength across time slots, rather than relying solely 
 > on p-values.
 
@@ -52,7 +52,7 @@ of Ecuadorian supermarket chains (Supermaxi, Mi Comisariato).
 ## Key Findings
 
 - **Dairy products + Snacks** show strongest association in Afternoon (V = 0.1357)
-- **Fruits & Vegetables + Meats** peak in Evening (V = 0.1512) — dinner preparation pattern
+- **Fruits & Vegetables + Meats** peak in Evening (V = 0.1512), dinner preparation pattern
 - **Home Cleaning + Snacks** association is strongest in Morning (V = 0.1271)
 - All 15 category pairs are statistically significant (p < 0.05)
 - Temporal segmentation reveals actionable patterns invisible in global analysis
@@ -100,7 +100,7 @@ Synthetic dataset generated to reflect Ecuadorian supermarket purchasing behavio
 ## Limitations and Future Work
 
 **Sample size and significance**: With 10,000 transactions, chi-squared rejects 
-H₀ for virtually all pairs — a known limitation with large samples. Cramér's V 
+H₀ for virtually all pairs, a known limitation with large samples. Cramér's V 
 is used as the primary measure for this reason.
 
 **Synthetic data**: Results should be validated with real POS transaction data 

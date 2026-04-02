@@ -31,7 +31,7 @@ during Afternoon (Cramér's V = 0.1357), significantly weaker in Evening
 
 **Interpretation**:  
 Afternoon shoppers appear to combine routine grocery runs with impulse snack 
-purchases. This is consistent with post-lunch or after-school shopping behavior 
+purchases. This is consistent with post-lunch or after school shopping behavior 
 common in Ecuadorian households a time when both dairy staples and snack 
 products are purchased together as part of a broader basket.
 
