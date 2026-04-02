@@ -10,7 +10,7 @@
 ## Overview
 
 This project investigates whether product category combinations in a supermarket
-are statistically independent — or whether certain pairings occur significantly
+are statistically independent, or whether certain pairings occur significantly
 more often than expected by chance.
 
 The key differentiator is **temporal segmentation**: associations are tested
@@ -23,7 +23,7 @@ of Ecuadorian supermarket chains (Supermaxi, Mi Comisariato).
 
 ---
 
-## Business Questions
+## Business Questions:
 
 1. Which product category pairs show statistically significant co-purchasing?
 2. Do these associations vary by time of day?
@@ -40,6 +40,12 @@ of Ecuadorian supermarket chains (Supermaxi, Mi Comisariato).
 | Chi-squared test | Test H₀: the two categories are purchased independently |
 | Cramér's V | Quantify the strength of significant associations |
 | Odds Ratio | Measure the magnitude of the commercial effect |
+
+> **Methodological note**: With large samples (n = 10,000), the chi-squared 
+> test tends to reject H₀ for virtually all pairs — a well-known limitation. 
+> For this reason, **Cramér's V is the primary effect size measure** used to 
+> compare association strength across time slots, rather than relying solely 
+> on p-values.
 
 ---
 
@@ -91,6 +97,24 @@ Synthetic dataset generated to reflect Ecuadorian supermarket purchasing behavio
 
 ---
 
+## Limitations and Future Work
+
+**Sample size and significance**: With 10,000 transactions, chi-squared rejects 
+H₀ for virtually all pairs — a known limitation with large samples. Cramér's V 
+is used as the primary measure for this reason.
+
+**Synthetic data**: Results should be validated with real POS transaction data 
+from actual supermarket chains.
+
+**Future extensions**:
+- Apply Market Basket Analysis (Support, Confidence, Lift) to complement 
+  the formal statistical testing approach used here
+- Validate findings with real transaction data
+- Extend temporal segmentation to seasonal patterns (holidays, school season)
+- Build a recommendation engine based on identified associations
+
+---
+
 ## How to Reproduce
 ```bash
 git clone https://github.com/paulmosq/retail-product-association-analysis.git
@@ -103,11 +127,7 @@ jupyter notebook notebooks/00_generate_dataset.ipynb
 
 ## Author
 
-**Paul Mosquera** — Statistics student at ESPOL, Ecuador  
+**Paul Mosquera Intriago** 
 GitHub: [@paulmosq](https://github.com/paulmosq)
 
 ---
-
-## License
-
-MIT License
