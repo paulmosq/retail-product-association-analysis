@@ -1,0 +1,46 @@
+Time Slot,Category A,Category B,Chi2,p-value,Significant,Cramér's V,Odds Ratio
+Morning,Dairy products and eggs,Fruits and vegetables,19.8958,0.0,True,0.0807,0.6861
+Morning,Dairy products and eggs,Meats and sausages,42.601,0.0,True,0.1181,0.5906
+Morning,Dairy products and eggs,Snacks and drinks,38.0874,0.0,True,0.1117,0.592
+Morning,Fruits and vegetables,Meats and sausages,45.1638,0.0,True,0.1216,0.5947
+Morning,Fruits and vegetables,Snacks and drinks,36.9633,0.0,True,0.11,0.6047
+Morning,Meats and sausages,Snacks and drinks,37.1032,0.0,True,0.1102,0.6092
+Morning,Dairy products and eggs,Home cleaning,30.519,0.0,True,0.1,0.6367
+Morning,Home cleaning,Snacks and drinks,49.3242,0.0,True,0.1271,0.5271
+Morning,Fruits and vegetables,Home cleaning,40.1522,0.0,True,0.1147,0.6059
+Morning,Fruits and vegetables,Personal care,30.2943,0.0,True,0.0996,0.6232
+Morning,Home cleaning,Personal care,30.2421,0.0,True,0.0995,0.5953
+Morning,Personal care,Snacks and drinks,27.0888,0.0,True,0.0942,0.591
+Morning,Dairy products and eggs,Personal care,41.9032,0.0,True,0.1172,0.5671
+Morning,Home cleaning,Meats and sausages,39.2428,0.0,True,0.1134,0.6161
+Morning,Meats and sausages,Personal care,40.7555,0.0,True,0.1155,0.5826
+Afternoon,Dairy products and eggs,Home cleaning,64.4899,0.0,True,0.1193,0.6106
+Afternoon,Dairy products and eggs,Meats and sausages,84.6987,0.0,True,0.1367,0.5726
+Afternoon,Home cleaning,Meats and sausages,70.9749,0.0,True,0.1251,0.6005
+Afternoon,Fruits and vegetables,Home cleaning,68.3535,0.0,True,0.1228,0.6063
+Afternoon,Fruits and vegetables,Meats and sausages,44.1241,0.0,True,0.0987,0.6703
+Afternoon,Fruits and vegetables,Personal care,48.1942,0.0,True,0.1031,0.6393
+Afternoon,Home cleaning,Personal care,47.3538,0.0,True,0.1022,0.6346
+Afternoon,Meats and sausages,Personal care,60.3728,0.0,True,0.1154,0.606
+Afternoon,Fruits and vegetables,Snacks and drinks,68.4024,0.0,True,0.1228,0.6081
+Afternoon,Meats and sausages,Snacks and drinks,74.5847,0.0,True,0.1283,0.5947
+Afternoon,Dairy products and eggs,Snacks and drinks,83.4407,0.0,True,0.1357,0.5752
+Afternoon,Home cleaning,Snacks and drinks,31.3008,0.0,True,0.0831,0.7131
+Afternoon,Dairy products and eggs,Fruits and vegetables,69.3011,0.0,True,0.1236,0.6042
+Afternoon,Dairy products and eggs,Personal care,73.7248,0.0,True,0.1275,0.5651
+Afternoon,Personal care,Snacks and drinks,59.9227,0.0,True,0.115,0.6067
+Evening,Dairy products and eggs,Fruits and vegetables,18.8431,0.0,True,0.0884,0.6544
+Evening,Dairy products and eggs,Home cleaning,38.4019,0.0,True,0.1262,0.5784
+Evening,Dairy products and eggs,Snacks and drinks,13.8946,0.0002,True,0.0759,0.7063
+Evening,Fruits and vegetables,Home cleaning,43.6227,0.0,True,0.1345,0.5589
+Evening,Fruits and vegetables,Snacks and drinks,18.4165,0.0,True,0.0874,0.6718
+Evening,Home cleaning,Snacks and drinks,27.3048,0.0,True,0.1064,0.6255
+Evening,Fruits and vegetables,Personal care,24.9487,0.0,True,0.1017,0.6401
+Evening,Home cleaning,Personal care,16.7228,0.0,True,0.0832,0.7123
+Evening,Personal care,Snacks and drinks,44.3295,0.0,True,0.1355,0.5548
+Evening,Dairy products and eggs,Personal care,56.9051,0.0,True,0.1536,0.5057
+Evening,Home cleaning,Meats and sausages,25.428,0.0,True,0.1027,0.6582
+Evening,Meats and sausages,Personal care,34.0874,0.0,True,0.1189,0.615
+Evening,Meats and sausages,Snacks and drinks,25.9695,0.0,True,0.1037,0.637
+Evening,Dairy products and eggs,Meats and sausages,43.1306,0.0,True,0.1337,0.5531
+Evening,Fruits and vegetables,Meats and sausages,55.1887,0.0,True,0.1512,0.5118

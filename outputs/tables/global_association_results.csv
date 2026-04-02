@@ -1,0 +1,16 @@
+Category A,Category B,Chi2,p-value,Significant,Cramér's V,Odds Ratio
+Dairy products and eggs,Fruits and vegetables,12.6844,0.0004,True,0.0356,0.8664
+Dairy products and eggs,Meats and sausages,116.6853,0.0,True,0.108,0.6472
+Dairy products and eggs,Snacks and drinks,370.099,0.0,True,0.1924,0.4578
+Fruits and vegetables,Meats and sausages,93.9305,0.0,True,0.0969,0.6769
+Fruits and vegetables,Snacks and drinks,290.5616,0.0,True,0.1705,0.5017
+Meats and sausages,Snacks and drinks,172.1349,0.0,True,0.1312,0.5891
+Dairy products and eggs,Home cleaning,229.6999,0.0,True,0.1516,0.5381
+Home cleaning,Snacks and drinks,25.0819,0.0,True,0.0501,0.8158
+Fruits and vegetables,Home cleaning,237.5312,0.0,True,0.1541,0.5334
+Fruits and vegetables,Personal care,187.559,0.0,True,0.137,0.5552
+Home cleaning,Personal care,48.261,0.0,True,0.0695,0.7387
+Personal care,Snacks and drinks,37.2627,0.0,True,0.061,0.7696
+Home cleaning,Meats and sausages,157.7215,0.0,True,0.1256,0.6
+Meats and sausages,Personal care,161.5256,0.0,True,0.1271,0.5797
+Dairy products and eggs,Personal care,276.763,0.0,True,0.1664,0.4851

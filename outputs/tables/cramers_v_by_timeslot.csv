@@ -1,0 +1,16 @@
+pair,Morning,Afternoon,Evening
+Home cleaning + Snacks and drinks,0.1271,0.0831,0.1064
+Fruits and vegetables + Meats and sausages,0.1216,0.0987,0.1512
+Dairy products and eggs + Meats and sausages,0.1181,0.1367,0.1337
+Dairy products and eggs + Personal care,0.1172,0.1275,0.1536
+Meats and sausages + Personal care,0.1155,0.1154,0.1189
+Fruits and vegetables + Home cleaning,0.1147,0.1228,0.1345
+Home cleaning + Meats and sausages,0.1134,0.1251,0.1027
+Dairy products and eggs + Snacks and drinks,0.1117,0.1357,0.0759
+Meats and sausages + Snacks and drinks,0.1102,0.1283,0.1037
+Fruits and vegetables + Snacks and drinks,0.11,0.1228,0.0874
+Dairy products and eggs + Home cleaning,0.1,0.1193,0.1262
+Fruits and vegetables + Personal care,0.0996,0.1031,0.1017
+Home cleaning + Personal care,0.0995,0.1022,0.0832
+Personal care + Snacks and drinks,0.0942,0.115,0.1355
+Dairy products and eggs + Fruits and vegetables,0.0807,0.1236,0.0884
