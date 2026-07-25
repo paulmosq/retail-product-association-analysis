@@ -3,7 +3,9 @@
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)](https://python.org)
 [![SQLite](https://img.shields.io/badge/Database-SQLite-lightgrey?logo=sqlite)](https://sqlite.org)
+[![Open app](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://TODO-replace-with-your-streamlit-cloud-url)
 
+**[Open the live app &rarr;](https://TODO-replace-with-your-streamlit-cloud-url)**
 
 ---
 
@@ -20,6 +22,23 @@ scheduling and inventory restocking decisions.
 
 The dataset is synthetic but calibrated to reflect real purchasing patterns
 of Ecuadorian supermarket chains (Supermaxi, Mi Comisariato).
+
+---
+
+## Interactive app
+
+The analysis also ships as a Streamlit app, not just notebooks. It reads
+straight from `data/retail_ecuador.db` and recomputes chi-squared, Cramer's V
+and odds ratio live for whatever time slot / category combination you pick,
+instead of only displaying pre-baked results.
+
+```bash
+streamlit run app.py
+```
+
+Four pages: an overview with the headline numbers, an interactive explorer
+with Plotly heatmaps and charts, a walkthrough of the statistical methodology,
+and the business insights translated into concrete promotion timing.
 
 ---
 
@@ -79,6 +98,17 @@ Synthetic dataset generated to reflect Ecuadorian supermarket purchasing behavio
 
 ## Repository Structure
 ```
+├── app.py                         ← Streamlit entry point
+├── app/
+│   ├── lib/
+│   │   ├── data.py                ← SQLite access, category/time-slot constants
+│   │   ├── stats.py               ← chi2 / Cramer's V / odds ratio, live recompute
+│   │   └── theme.py               ← visual system (fonts, tokens, components)
+│   └── pages/
+│       ├── 1_overview.py
+│       ├── 2_explorer.py
+│       ├── 3_methodology.py
+│       └── 4_insights.py
 ├── data/
 │   ├── retail_ecuador.db          ← SQLite database
 │   ├── transactions_clean.csv     ← Clean transaction dataset
@@ -121,6 +151,12 @@ git clone https://github.com/paulmosq/retail-product-association-analysis.git
 cd retail-product-association-analysis
 pip install -r requirements.txt
 jupyter notebook notebooks/00_generate_dataset.ipynb
+```
+
+To run the app instead of the notebooks:
+```bash
+pip install -r requirements.txt
+streamlit run app.py
 ```
 
 ---
