@@ -3,9 +3,9 @@
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)](https://python.org)
 [![SQLite](https://img.shields.io/badge/Database-SQLite-lightgrey?logo=sqlite)](https://sqlite.org)
-[![Open app](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://TODO-replace-with-your-streamlit-cloud-url)
+[![Open app](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://retail-copurchase-analysis.streamlit.app)
 
-**[Open the live app &rarr;](https://TODO-replace-with-your-streamlit-cloud-url)**
+**[Open the live app &rarr;](https://retail-copurchase-analysis.streamlit.app)**
 
 ---
 
